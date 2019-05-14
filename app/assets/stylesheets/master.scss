@@ -1,7 +1,4 @@
 
-@import url('https://fonts.googleapis.com/css?family=Gafata');
-
-
 .clear {
 	clear: both;
 }
@@ -22,7 +19,7 @@
 	line-height: 16px;
 	cursor: pointer;
 	transform: rotate(11deg);
-	-ms-transform: rotate(11deg);  /*IE 9*/
+	-ms-transform: rotate(11deg); /*IE 9*/
 	-webkit-transform: rotate(11deg); /*Opera, Chrome, and Safari*/
 
 }
@@ -40,6 +37,8 @@
 		color: black;
 		font-size: 25px;
 		border-bottom: 1px solid #dfdfdf;
+		font-family: "fira_sansmedium", sans-serif;
+		font-weight: bold;
 	}
 	header {
 		border-top: 9px solid #222222;
@@ -50,11 +49,12 @@
 	}
 
 	h1 {
-		font-family:"Gafata", sans-serif;
-		
+		font-family:"fira_sansmedium", sans-serif;
+		font-weight: bold;
+		font-size: 48px;
 	}
 	h2 {
-		font-family:"Gafata", sans-serif;
+		font-family:"fira_sansmedium", sans-serif;
 		
 	}
 }

@@ -1,4 +1,4 @@
-require_relative 'boot'
+require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
 
@@ -15,5 +15,7 @@ module Splurty
     # Application configuration can go into files in config/initializers
     # -- all .rb files in that directory are automatically loaded after loading
     # the framework and any gems in your application.
+    config.assets.paths << "#{Rails.root}/app/assets/fonts"  
+    config.assets.precompile += %w( .svg .eot .woff .ttf)
   end
 end
