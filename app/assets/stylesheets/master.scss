@@ -30,34 +30,34 @@
 	font-style: italic;
 	padding-top: 26px;
 }
-	.links {
-		padding-top: 26px;
-	}
+.links {
+	padding-top: 26px;
+}
 
-	.links a {
-		color: black;
-		font-size: 25px;
-		border-bottom: 1px solid #dfdfdf;
-		font-family: "fira_sansmedium", sans-serif;
-		font-weight: bold;
-	}
-	header {
-		border-top: 9px solid #222222;
-	}
+.links a {
+	color: black;
+	font-size: 25px;
+	border-bottom: 1px solid #dfdfdf;
+	font-family: "fira_sansmedium", sans-serif;
+	font-weight: bold;
+}
+header {
+	border-top: 9px solid #222222;
+}
 
-	hr {
-		clear:both;
-	}
+hr {
+	clear:both;
+}
 
-	h1 {
-		font-family:"fira_sansmedium", sans-serif;
-		font-weight: bold;
-		font-size: 48px;
-	}
-	h2 {
-		font-family:"fira_sansmedium", sans-serif;
-		
-	}
+h1 {
+	font-family:"fira_sansmedium", sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+}
+h2 {
+	font-family:"fira_sansmedium", sans-serif;
+	
+}
 .next-quote {
 	color:#f84342;
 	font-family: "fira_sansmedium", sans-serif;
@@ -91,10 +91,14 @@
 }
 
 h2 span {
-	color: #dddddd
-	font-family:"fira_sansmedium", sans-serif; 
+	color: #dddddd;
+	font-family: "fira_sansmedium"; sans-serif; 
 }
 
 ::selection {
-	background-color: #f84342
+	background-color: #f84342;
+}
+
+.rotated {
+	transform: rotate(270deg);
 }
